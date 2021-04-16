@@ -1,0 +1,7 @@
+version: "3"
+services:
+  rstudio:
+    image: digitbrain/raf-jupyter-pytorch:latest
+    restart: always
+    ports:
+      - 8888:8888
